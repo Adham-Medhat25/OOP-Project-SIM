@@ -84,12 +84,7 @@ public class Program1 {
                 System.out.println("");
                 continue;
         }
-//        System.out.println(a1.admin);
-//        System.out.println(s1.Std);
 
-//        System.out.println(p1.UserList);
-//        System.out.println(AdminObj.UserList);
-//        System.out.println(AdminObj.PassList);
         
         System.out.println("Press 7 to return to the pre-menu\nPress 9 to quit");
         int fun = console.nextInt();
@@ -120,50 +115,10 @@ public class Program1 {
         
         
         } // {} the while loop
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
             
     }
            
-    public static void clearScreen() {
-    try {
-        if (System.getProperty("os.name").contains("Windows")) {
-            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-        } else {
-            System.out.print("\033[H\033[2J");
-            System.out.flush();
-        }
-    } catch (Exception e) {
-        // If it fails, just print new lines as a backup
-        for (int i = 0; i < 50; i++) System.out.println();
-    }
-}
-    
-    
+
     
     public static void drawLine(int a , char c){
         for(int i=0;i<a;i++){
